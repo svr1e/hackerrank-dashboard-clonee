@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Satoshi, Open Sans, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    background: #012;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav .nav1 {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    color: #b7c9cc;
+}
+
+nav .nav1 .separator {
+    margin-right: 8px;
+}
+
+nav .nav1 ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 14px;
+}
+
+nav .nav1 img {
+    height: 14px;
+    width: auto;
+}
+
+nav .nav2 input{
+    height: 32px;
+    width: 85px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0.2px solid white;
+}
+
+nav .nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+nav .nav2 p{
+    text-decoration: underline;
+    color: white;
+    font-size: 13px;
+    font-weight: 570;
+}
+
+nav .nav2 button {
+    height: 33px;
+    width: 70px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0px;
+}
+
+nav .nav2 button:hover {
+    cursor: pointer;
+    height: 31px;
+    width: 68px;
+    border: 1px solid white;
+}
+
+nav .nav2 .btn2 {
+    background-color: green;
+    color: white;
+}
+
+nav .nav2 .btn2:hover {
+    height: 32px;
+    width: 69px;
+    border: 1px solid green;
+    background-color: darkgreen;
+}
+
+nav .nav1 ul li a {
+    color: #b8b9b9;
+    text-decoration: none;
+}
+
+nav .nav1 ul li a:hover {
+    color: white;
+    cursor: pointer;
+}
